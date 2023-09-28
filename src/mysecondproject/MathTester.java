@@ -7,8 +7,8 @@ public class MathTester {
 		double base = 2;
 		double height = 0;
 		double resultSet = (base*height)/2;
-		double x = 7;
-		double y = 7;
+		double x = 3;
+		double y = 2;
 		double z = 4;
 		
 		System.out.println(1);
@@ -21,8 +21,17 @@ public class MathTester {
 		double second = Math.pow(x, y) - Math.pow(6, x);
 		System.out.println(second);
 		
-		double third = 0;
+		double third = (4*(Math.cos(z/5))) - (Math.sin(Math.pow(x, 2)));
 		System.out.println(third);
+		
+		double fourth = Math.pow(x, 4) - (Math.sqrt((6*x)  - Math.pow(y, 3)));
+		System.out.println(fourth);
+		
+		double fiveth = 1/(y-(1/(x-(Math.pow(2, y)))));
+		System.out.println(fiveth);
+		
+		double sixth = 7 * Math.cos(Math.sqrt(5 - Math.sin(Math.sqrt((Math.pow(3, x) - 4)))));
+		System.out.println(sixth);
 		
 		
 		
